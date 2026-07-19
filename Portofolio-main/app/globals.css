@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-dark-900 text-dark-100 antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-white;
+  }
+}
+
+/* ---------- Animations ---------- */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.94); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-18px); }
+}
+@keyframes blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(20px, -30px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.95); }
+}
+@keyframes gradient-pan {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@layer utilities {
+  .animate-fade-up { animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .animate-fade-in { animation: fade-in 0.8s ease both; }
+  .animate-scale-in { animation: scale-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .animate-float { animation: float-slow 6s ease-in-out infinite; }
+  .animate-blob { animation: blob 14s ease-in-out infinite; }
+  .animate-gradient { background-size: 200% 200%; animation: gradient-pan 8s ease infinite; }
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s cubic-bezier(0.22,1,0.36,1), transform 0.7s cubic-bezier(0.22,1,0.36,1); }
+  .reveal.is-visible { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+  .animate-float, .animate-blob, .animate-gradient { animation: none !important; }
+}
+
+/* Dark theme overrides: remap light utility classes to dark surfaces */
+@layer utilities {
+  .bg-white { background-color: #0f172a !important; }
+  .border-dark-100 { border-color: #1e293b !important; }
+  .border-dark-200 { border-color: #334155 !important; }
+  .bg-dark-50 { background-color: #111827 !important; }
+  .bg-dark-100 { background-color: #1e293b !important; }
+  .bg-dark-800 { background-color: #0f172a !important; }
+  .text-dark-900 { color: #f8fafc !important; }
+  .text-dark-700 { color: #cbd5e1 !important; }
+  .text-dark-600 { color: #94a3b8 !important; }
+  .text-dark-500 { color: #cbd5e1 !important; }
+  .text-dark-400 { color: #94a3b8 !important; }
+  .border-dark-800 { border-color: #1e293b !important; }
+  .bg-primary-50 { background-color: #0c2840 !important; }
+  .bg-primary-100 { background-color: #0c2f4a !important; }
+  .hover\:bg-primary-50:hover { background-color: #0c2840 !important; }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20;
+  }
+  
+  .section-title {
+    @apply text-3xl sm:text-4xl font-bold text-white mb-4;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-dark-400 mb-12 max-w-2xl;
+  }
+  
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-primary-600 text-primary-300 font-medium rounded-lg hover:bg-primary-900/40 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+  
+  .card {
+    @apply bg-dark-800 rounded-xl shadow-sm border border-dark-800 hover:shadow-lg transition-all duration-300 overflow-hidden;
+  }
+  
+  .skill-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary-900/40 text-primary-300;
+  }
+}

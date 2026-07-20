@@ -181,7 +181,7 @@ export const t = {
         },
         role: {
           id: 'Pengembang Website (Badan Pengawas Tenaga Nuklir)',
-          en: 'Web Developer',
+          en: 'Web Developer (Nuclear Energy Regulatory Agency)',
         },
         period: { id: 'November 2025 – Mei 2026', en: 'November 2025 – May 2026' },
         type: { id: 'Proyek Magang Kemnaker Batch 2', en: 'Internship Project' },
@@ -220,7 +220,7 @@ export const t = {
         ],
       },
       {
-        title: { id: 'Pharmaflow OS: Sistem Manajemen Apotek Berbasis Website', en: 'Pharmaflow OS: Web-Based Pharmacy Management System' },
+        title: { id: 'Heritage Farma: Sistem Manajemen Apotek Modern Berbasis Website', en: 'Heritage Farma: Modern Web-Based Pharmacy Management System' },
         role: { id: 'Pengembang Website (Uji Kompetensi BNSP 2025)', en: 'Web Developer (BNSP 2025 Competency Test)' },
         period: { id: 'Juni 2025 – Juli 2025', en: 'June 2025 – July 2025' },
         type: { id: 'Proyek Pribadi', en: 'Personal Project' },
@@ -244,8 +244,8 @@ export const t = {
             'Interactive chart-based analytics dashboard for daily sales and purchase monitoring',
           ],
         },
-        tags: ['Laravel 12', 'MySQL', 'Tailwind CSS', 'Vite', 'JavaScript', 'AJAX'],
-        poster: 'poster.png',
+        tags: ['Laravel 12', 'PHP', 'MySQL', 'Bootstrap 5', 'Vite', 'JavaScript', 'AJAX', 'ApexCharts', 'jQuery'],
+        poster: 'heritagefarma/Heritage.png',
         screenshots: [
           { img: '1_customer_portal.png', id: { caption: 'Landing Page', desc: 'Halaman beranda utama dengan pencarian obat dan navigasi yang responsif.' }, en: { caption: 'Landing Page', desc: 'Main homepage with drug search and responsive navigation.' } },
           { img: '8_customer_shop.png', id: { caption: 'Katalog & Keranjang Belanja', desc: 'Antarmuka pelanggan untuk memilih obat berdasarkan kategori, menambah ke keranjang, dan melakukan transaksi mandiri.' }, en: { caption: 'Catalog & Shopping Cart', desc: 'Customer interface to browse drugs by category, add to cart, and self-service checkout.' } },
@@ -259,7 +259,7 @@ export const t = {
         title: { id: 'VisitIcon: Sistem Manajemen Pengunjung', en: 'VisitIcon: Visitor Management System' },
         role: { id: 'Pengembang Website (PLN Icon Plus)', en: 'Web Developer (PLN Icon Plus)' },
         period: { id: 'Agustus 2024 – Des 2024', en: 'August 2024 – Dec 2024' },
-        type: { id: 'Proyek Tim (PLN Icon Plus)', en: 'Team Project (PLN Icon Plus)' },
+        type: { id: 'Proyek Magang Mandiri (PLN Icon Plus)', en: 'Independent Internship Project (PLN Icon Plus)' },
         points: {
           id: [
             'Bergabung dalam tim 3 orang membangun aplikasi Buku Tamu Digital untuk PLN Icon Plus SBU Regional Jawa Bagian Tengah menggunakan Laravel 8/9 dan MySQL, menggantikan proses pencatatan kunjungan tamu manual menjadi digital',

@@ -219,6 +219,7 @@ export const t = {
         //   { img: 'quantsync/strategy_1782906428580.png', id: { caption: 'Pengaturan Strategi & Bot', desc: 'Panel kontrol untuk mengatur parameter bot trading secara dinamis — aktivasi bot, pemilihan strategi SMC, tingkat risiko per transaksi, dan konfigurasi SL/TP berbasis ATR yang tersinkronisasi real-time ke database.' }, en: { caption: 'Strategy & Bot Settings', desc: 'Control panel for dynamic bot trading parameters — bot activation, SMC strategy selection, risk per trade, and ATR-based SL/TP configuration synced real-time to database.' } },
         // ],
       },
+
       {
         title: { id: 'Heritage Farma: Sistem Manajemen Apotek Modern Berbasis Website', en: 'Heritage Farma: Modern Web-Based Pharmacy Management System' },
         role: { id: 'Pengembang Website (Uji Kompetensi BNSP 2025)', en: 'Web Developer (BNSP 2025 Competency Test)' },
@@ -255,6 +256,42 @@ export const t = {
         //   { img: '11_apoteker_dashboard.png', id: { caption: 'Dashboard Apoteker', desc: 'Dashboard terbatas untuk Apoteker — hanya dapat mengakses operasional obat dan stok.' }, en: { caption: 'Apoteker Dashboard', desc: 'Restricted dashboard for Apoteker — can only access drug operations and stock.' } },
         // ],
       },
+
+      {
+        title: { id: 'Aplikasi Clasifragise: Klasifikasi Kesegaran Stroberi Berbasis Aplikasi Mobile', en: 'Clasifragise App: Mobile-Based Strawberry Freshness Classification' },
+        role: { id: 'Pengembang Aplikasi Machine Learning (Skripsi Sarjana)', en: 'Machine Learning Application Developer (Bachelor Thesis)' },
+        period: { id: 'Februari 2025 – Juni 2025', en: 'February 2025 – June 2025' },
+        type: { id: 'Proyek Pribadi', en: 'Personal Project' },
+        points: {
+          id: [
+            'Merancang dan mengembangkan aplikasi mobile berbasis Flutter yang terintegrasi dengan Python Flask API untuk klasifikasi kesegaran stroberi menggunakan gambar dari kamera atau galeri',
+            'Mengembangkan sistem klasifikasi machine learning menggunakan algoritma KNN dengan ekstraksi RGB, GLCM, dan Laplacian, yang mencapai akurasi sistem sebesar 94% dan akurasi klasifikasi manual sebesar 97%',
+            'Mengimplementasikan teknik preprocessing citra, meliputi penghapusan latar belakang, konversi RGB ke grayscale, dan ekstraksi fitur menggunakan OpenCV untuk meningkatkan performa klasifikasi',
+            'Merancang antarmuka pengguna (UI/UX) aplikasi menggunakan Flutter dengan alur onboarding, input gambar, dan hasil klasifikasi yang informatif, mencakup detail prediksi, deskripsi hasil, serta riwayat analisis untuk meningkatkan kemudahan penggunaan',
+            'Membangun REST API menggunakan Flask untuk menghubungkan model klasifikasi machine learning dengan aplikasi mobile, memastikan proses pengiriman gambar dan pengembalian hasil prediksi berjalan secara real-time dan efisien',
+            'Melakukan pengujian black-box, analisis performa model, serta optimasi aplikasi guna menghasilkan solusi klasifikasi yang akurat, efisien dan mudah digunakan',
+          ],
+          en: [
+            'Designed and developed a Flutter-based mobile application integrated with a Python Flask API for strawberry freshness classification using camera or gallery images',
+            'Developed a machine learning classification system using the KNN algorithm with RGB, GLCM, and Laplacian feature extraction, achieving 94% system accuracy and 97% manual classification accuracy',
+            'Implemented image preprocessing techniques including background removal, RGB-to-grayscale conversion, and OpenCV-based feature extraction to improve classification performance',
+            'Designed the application UI/UX using Flutter with onboarding flow, image input, and informative classification results including prediction details, result descriptions, and analysis history for improved usability',
+            'Built a REST API using Flask to connect the machine learning classification model with the mobile app, ensuring real-time and efficient image submission and prediction result delivery',
+            'Conducted black-box testing, model performance analysis, and application optimization to deliver an accurate, efficient, and user-friendly classification solution',
+          ],
+        },
+        tags: ['Flutter', 'Python', 'Flask', 'OpenCV', 'KNN', 'Machine Learning', 'REST API'],
+        poster: 'clasifragise/posterstroberi.png',
+        // screenshots: [
+        //   { img: '1_customer_portal.png', id: { caption: 'Landing Page', desc: 'Halaman beranda utama dengan pencarian obat dan navigasi yang responsif.' }, en: { caption: 'Landing Page', desc: 'Main homepage with drug search and responsive navigation.' } },
+        //   { img: '8_customer_shop.png', id: { caption: 'Katalog & Keranjang Belanja', desc: 'Antarmuka pelanggan untuk memilih obat berdasarkan kategori, menambah ke keranjang, dan melakukan transaksi mandiri.' }, en: { caption: 'Catalog & Shopping Cart', desc: 'Customer interface to browse drugs by category, add to cart, and self-service checkout.' } },
+        //   { img: '3_pos_cashier.png', id: { caption: 'Modul Kasir (POS)', desc: 'Panel penjualan kasir apotek untuk melayani pembelian langsung dengan fitur pencarian obat cepat dan kalkulasi otomatis.' }, en: { caption: 'POS Cashier Module', desc: 'Pharmacy cashier sales panel for direct purchases with quick drug search and automatic calculation.' } },
+        //   { img: '6_expired_medicines.png', id: { caption: 'Pengendalian Obat Kadaluarsa', desc: 'Fitur pengawasan otomatis untuk obat yang mendekati tanggal kedaluwarsa demi menjaga keamanan konsumsi obat.' }, en: { caption: 'Expired Medicine Control', desc: 'Automatic monitoring feature for near-expiry drugs to ensure medication safety.' } },
+        //   { img: '2_admin_dashboard.png', id: { caption: 'Dashboard Admin', desc: 'Implementasi Laravel Middleware — Super Admin memiliki akses penuh ke laporan keuangan dan manajemen staf.' }, en: { caption: 'Admin Dashboard', desc: 'Laravel Middleware implementation — Super Admin has full access to financial reports and staff management.' } },
+        //   { img: '11_apoteker_dashboard.png', id: { caption: 'Dashboard Apoteker', desc: 'Dashboard terbatas untuk Apoteker — hanya dapat mengakses operasional obat dan stok.' }, en: { caption: 'Apoteker Dashboard', desc: 'Restricted dashboard for Apoteker — can only access drug operations and stock.' } },
+        // ],
+      },
+
       {
         title: { id: 'VisitIcon: Sistem Manajemen Pengunjung', en: 'VisitIcon: Visitor Management System' },
         role: { id: 'Pengembang Website (PLN Icon Plus)', en: 'Web Developer (PLN Icon Plus)' },
@@ -294,6 +331,42 @@ export const t = {
         //   { img: 'erpt/09_zona.png', id: { caption: 'Manajemen Zona Serpo', desc: 'Pengaturan wilayah kerja vendor/basecamp — menyimpan kode vendor, lokasi, regional, dan jumlah tim lapangan sebagai dasar relasi database.' }, en: { caption: 'Zona Serpo Management', desc: 'Vendor/basecamp territory management — stores vendor code, location, region, and field team count as database relation foundation.' } },
         // ],
       },
+
+      {
+        title: { id: 'Aplikasi Groute: Desain Aplikasi Transportasi Hijau', en: 'Groute App: Green Transportation Mobile Application Design' },
+        role: { id: 'UI/UX Desainer (PT Greatedu Global Mahardika)', en: 'UI/UX Designer (PT Greatedu Global Mahardika)' },
+        period: { id: 'Februari 2024 – Juni 2024', en: 'February 2024 – June 2024' },
+        type: { id: 'Proyek Magang MSIB Batch 6', en: 'MSIB Batch 6 Internship Project' },
+        points: {
+          id: [
+            'Merancang desain antarmuka aplikasi seluler Groute (transportasi hijau) dengan prinsip desain modern yang berpusat pada pengguna menggunakan Figma',
+            'Melakukan riset pengguna dan analisis kompetitor untuk memahami kebutuhan serta pain point pengguna dalam layanan transportasi ramah lingkungan',
+            'Mengembangkan wireframe dan user flow untuk mendukung pengembangan frontend dan pengujian kegunaan',
+            'Merancang design system (komponen UI, tipografi, dan palet warna) guna menjaga konsistensi visual di seluruh halaman aplikasi',
+            'Berkolaborasi dengan 5 anggota tim lintas fungsi untuk memastikan konsistensi desain dan kelayakan produk',
+            'Berkontribusi pada peningkatan kualitas pengalaman pengguna, tercermin dalam umpan balik kegunaan positif dari 80% penguji internal',
+          ],
+          en: [
+            'Designed the Groute mobile application interface (green transportation) using Figma, applying modern user-centered design principles',
+            'Conducted user research and competitor analysis to understand user needs and pain points in eco-friendly transportation services',
+            'Developed wireframes and user flows to support frontend development and usability testing',
+            'Built a design system including UI components, typography, and color palette to maintain visual consistency across the entire app',
+            'Collaborated with 5 cross-functional team members to ensure design consistency and product feasibility',
+            'Contributed to improved user experience quality, reflected in positive usability feedback from 80% of internal testers',
+          ],
+        },
+        tags: ['Figma', 'UI/UX Design', 'Wireframing', 'User Flow', 'Design System', 'User Research',],
+        poster: 'groute/groute.png',
+        // screenshots: [
+        //   { img: '1_customer_portal.png', id: { caption: 'Landing Page', desc: 'Halaman beranda utama dengan pencarian obat dan navigasi yang responsif.' }, en: { caption: 'Landing Page', desc: 'Main homepage with drug search and responsive navigation.' } },
+        //   { img: '8_customer_shop.png', id: { caption: 'Katalog & Keranjang Belanja', desc: 'Antarmuka pelanggan untuk memilih obat berdasarkan kategori, menambah ke keranjang, dan melakukan transaksi mandiri.' }, en: { caption: 'Catalog & Shopping Cart', desc: 'Customer interface to browse drugs by category, add to cart, and self-service checkout.' } },
+        //   { img: '3_pos_cashier.png', id: { caption: 'Modul Kasir (POS)', desc: 'Panel penjualan kasir apotek untuk melayani pembelian langsung dengan fitur pencarian obat cepat dan kalkulasi otomatis.' }, en: { caption: 'POS Cashier Module', desc: 'Pharmacy cashier sales panel for direct purchases with quick drug search and automatic calculation.' } },
+        //   { img: '6_expired_medicines.png', id: { caption: 'Pengendalian Obat Kadaluarsa', desc: 'Fitur pengawasan otomatis untuk obat yang mendekati tanggal kedaluwarsa demi menjaga keamanan konsumsi obat.' }, en: { caption: 'Expired Medicine Control', desc: 'Automatic monitoring feature for near-expiry drugs to ensure medication safety.' } },
+        //   { img: '2_admin_dashboard.png', id: { caption: 'Dashboard Admin', desc: 'Implementasi Laravel Middleware — Super Admin memiliki akses penuh ke laporan keuangan dan manajemen staf.' }, en: { caption: 'Admin Dashboard', desc: 'Laravel Middleware implementation — Super Admin has full access to financial reports and staff management.' } },
+        //   { img: '11_apoteker_dashboard.png', id: { caption: 'Dashboard Apoteker', desc: 'Dashboard terbatas untuk Apoteker — hanya dapat mengakses operasional obat dan stok.' }, en: { caption: 'Apoteker Dashboard', desc: 'Restricted dashboard for Apoteker — can only access drug operations and stock.' } },
+        // ],
+      },
+
       {
         title: { id: 'AOT (Attack On Tikus): Pengendali Hama Sawah Otomatis Berbasis IoT', en: 'AOT (Attack On Tikus): IoT-Based Automatic Rice Field Pest Control' },
         role: { id: 'Pengembang IoT & Android', en: 'IoT & Android Developer' },
@@ -307,6 +380,8 @@ export const t = {
             'Menerapkan algoritma Decision Tree untuk mendeteksi citra tikus sebagai hama sawah secara otomatis',
             'Melakukan ekstraksi nilai rata-rata HSV dan GLCM dari citra objek tikus untuk kebutuhan pelatihan model',
             'Merancang dan memasang perangkat keras ESP-32 CAM di area persawahan untuk pemantauan hama real-time',
+            'Mengintegrasikan sensor ultrasonik HC-SR04 untuk mendeteksi jarak dan keberadaan objek tikus di sekitar area pemantauan',
+            'Menggunakan modul speaker buzzer pasif 5V sebagai output alarm otomatis untuk mengusir hama tikus saat terdeteksi',
           ],
           en: [
             'Identified key issues and user needs through literature research and stakeholder interviews',
@@ -315,6 +390,8 @@ export const t = {
             'Implemented Decision Tree algorithm to automatically detect rat images as rice field pests',
             'Extracted Average HSV and GLCM image values from rat objects for model training purposes',
             'Designed and installed ESP-32 CAM hardware in rice field areas for real-time pest monitoring',
+            'Integrated HC-SR04 ultrasonic sensor to detect distance and presence of rat objects in the monitoring area',
+            'Used a 5V passive buzzer module as an automatic alarm output to repel rats when detected',
           ],
         },
         tags: ['Flutter', 'IoT', 'Arduino', 'ESP-32 CAM', 'Decision Tree', 'Android'],

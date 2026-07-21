@@ -1,6 +1,6 @@
 'use client'
 
-import { Mail, Phone, MapPin, Linkedin, ExternalLink } from 'lucide-react'
+import { Mail, Phone, MapPin, Linkedin, ExternalLink, Download } from 'lucide-react'
 import { useMemo } from 'react'
 import { useLanguage } from '@/lib/LanguageContext'
 import { t } from '@/lib/translations'
@@ -70,6 +70,10 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-up" style={{ animationDelay: '480ms' }}>
               <a href="#contact" className="btn-primary">{t.hero.btnContact[lang]}</a>
               <a href="#projects" className="btn-secondary">{t.hero.btnProjects[lang]}</a>
+              <a href="/documentation/resume/CV_Lukas Raden Arya Jatayu.pdf" target="_blank" rel="noopener noreferrer" className="btn-secondary inline-flex items-center gap-2">
+                <Download className="w-4 h-4" />
+                {t.hero.btnCV[lang]}
+              </a>
             </div>
 
             <div className="mt-12 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-sm text-gray-500 dark:text-dark-400 animate-fade-up" style={{ animationDelay: '600ms' }}>

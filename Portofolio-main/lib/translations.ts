@@ -21,6 +21,7 @@ export const t = {
     },
     btnContact: { id: 'Hubungi Saya', en: 'Contact Me' },
     btnProjects: { id: 'Lihat Proyek', en: 'View Projects' },
+    btnCV: { id: 'CV Saya', en: 'My CV' },
     scroll: { id: 'Scroll ke bawah', en: 'Scroll down' },
     stat1: { id: 'Tahun Pengalaman', en: 'Years Experience' },
     stat2: { id: 'Proyek Selesai', en: 'Projects Completed' },
@@ -30,13 +31,13 @@ export const t = {
     stats: {
       id: [
         { value: '3', label: 'Magang Profesional' },
-        { value: '4', label: 'Proyek End-to-End' },
+        { value: '7', label: 'Proyek End-to-End' },
         { value: '15+', label: 'Teknologi' },
         { value: '3.65', label: 'IPK' },
       ],
       en: [
         { value: '3', label: 'Professional Internships' },
-        { value: '4', label: 'End-to-End Applications' },
+        { value: '7', label: 'End-to-End Applications' },
         { value: '15+', label: 'Technologies' },
         { value: '3.65', label: 'GPA' },
       ],
@@ -452,7 +453,7 @@ export const t = {
       },
       {
         title: { id: 'Tools & Teknologi', en: 'Tools & Technologies' },
-        items: { id: ['Microsoft Office', 'Google Workspace', 'Python', 'PHP', 'Node.js', 'JavaScript', 'Laravel', 'MySQL', 'MongoDB', 'PostgreSQL', 'Firebase', 'Flutter', 'Bootstrap', 'Figma', 'Canva'], en: ['Microsoft Office', 'Google Workspace', 'Python', 'PHP', 'Node.js', 'JavaScript', 'Laravel', 'MySQL', 'MongoDB', 'PostgreSQL', 'Firebase', 'Flutter', 'Bootstrap', 'Figma', 'Canva'] },
+        items: { id: ['Microsoft Office', 'Google Workspace', 'Python', 'PHP', 'Node.js', 'JavaScript', 'Laravel', 'MySQL', 'Firebase', 'Flutter', 'Bootstrap', 'Figma', 'Canva'], en: ['Microsoft Office', 'Google Workspace', 'Python', 'PHP', 'Node.js', 'JavaScript', 'Laravel', 'MySQL', 'Firebase', 'Flutter', 'Bootstrap', 'Figma', 'Canva'] },
       },
       {
         title: { id: 'Bahasa', en: 'Languages' },

@@ -453,7 +453,7 @@ export const t = {
       },
       {
         title: { id: 'Tools & Teknologi', en: 'Tools & Technologies' },
-        items: { id: ['Microsoft Office', 'Google Workspace', 'Python', 'PHP', 'Node.js', 'JavaScript', 'Laravel', 'MySQL', 'Firebase', 'Flutter', 'Bootstrap', 'Figma', 'Canva'], en: ['Microsoft Office', 'Google Workspace', 'Python', 'PHP', 'Node.js', 'JavaScript', 'Laravel', 'MySQL', 'Firebase', 'Flutter', 'Bootstrap', 'Figma', 'Canva'] },
+        items: { id: ['Microsoft Office', 'Google Workspace', 'Python', 'PHP', 'Node.js', 'JavaScript', 'Laravel', 'MySQL', 'Firebase', 'PhpMyAdmin', 'Flutter', 'Bootstrap', 'Figma', 'Canva'], en: ['Microsoft Office', 'Google Workspace', 'Python', 'PHP', 'Node.js', 'JavaScript', 'Laravel', 'MySQL', 'Firebase', 'PhpMyAdmin', 'Flutter', 'Bootstrap', 'Figma', 'Canva'] },
       },
       {
         title: { id: 'Bahasa', en: 'Languages' },

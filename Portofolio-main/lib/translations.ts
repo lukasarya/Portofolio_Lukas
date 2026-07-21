@@ -59,7 +59,7 @@ export const t = {
         company: 'Badan Pengawas Tenaga Nuklir (BAPETEN)',
         logo: { initials: 'RN', color: 'bg-emerald-600' },
         logoImg: 'bapeten.png',
-        period: { id: 'Nov 2025 – Mei 2026', en: 'Nov 2025 – May 2026' },
+        period: { id: 'November 2025 – Mei 2026', en: 'November 2025 – May 2026' },
         points: {
           id: [
             'Memodelkan dan mendokumentasikan 80+ alur kerja proses bisnis kelembagaan menggunakan diagram alur standar BPMN dan Melakukan migrasi seluruh data ke Sistem SPBE Nasional (SIA SPBE – Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi).',
@@ -80,7 +80,7 @@ export const t = {
         company: 'PLN Icon Plus',
         logo: { initials: 'PLN', color: 'bg-blue-600' },
         logoImg: 'plniconplus_logo.png',
-        period: { id: 'Agustus 2024 – Des 2024', en: 'August 2024 – Dec 2024' },
+        period: { id: 'Agustus 2024 – Desember 2024', en: 'August 2024 – December 2024' },
         points: {
           id: [
             'Merancang dan mengembangkan 1 Sistem Manajemen Pengunjung berbasis web skala penuh menggunakan Laravel, mendukung pendaftaran tamu yang aman dan pemantauan waktu nyata.',
@@ -155,6 +155,7 @@ export const t = {
       id: [
         { text: 'Sertifikasi Asisten Pengembang Web, BNSP • 2026', logoImg: 'Logo_Badan_Nasional_Sertifikasi_Profesi.png' },
         { text: 'Sertifikasi Pengembang Web, BNSP • 2025', logoImg: 'Logo_Badan_Nasional_Sertifikasi_Profesi.png' },
+        { text: 'Workshop Public Speaking, BAPETEN • 2025', logoImg: 'bapeten.png' },
         { text: 'Pengantar Analisis Data, ReVou • 2025', logoImg: 'revou.jpg' },
         { text: 'Bootcamp Python, Udemy • 2025', logoImg: 'udemy.png' },
         { text: 'Bootcamp UI/UX, Greatedu • 2024', logoImg: 'greatedu.png' },
@@ -162,6 +163,7 @@ export const t = {
       en: [
         { text: 'Assistant Web Developer Certification, BNSP • 2026', logoImg: 'Logo_Badan_Nasional_Sertifikasi_Profesi.png' },
         { text: 'Web Developer Certification, BNSP • 2025', logoImg: 'Logo_Badan_Nasional_Sertifikasi_Profesi.png' },
+        { text: 'Public Speaking Workshop, BAPETEN • 2025', logoImg: 'bapeten.png' },
         { text: 'Data Analysis Intro, ReVou • 2025', logoImg: 'revou.jpg' },
         { text: 'Python Bootcamp, Udemy • 2025', logoImg: 'udemy.png' },
         { text: 'UI/UX Bootcamp, Greatedu • 2024', logoImg: 'greatedu.png' },
@@ -256,7 +258,7 @@ export const t = {
       {
         title: { id: 'VisitIcon: Sistem Manajemen Pengunjung', en: 'VisitIcon: Visitor Management System' },
         role: { id: 'Pengembang Website (PLN Icon Plus)', en: 'Web Developer (PLN Icon Plus)' },
-        period: { id: 'Agustus 2024 – Des 2024', en: 'August 2024 – Dec 2024' },
+        period: { id: 'Agustus 2024 – Desember 2024', en: 'August 2024 – December 2024' },
         type: { id: 'Proyek Magang Mandiri (PLN Icon Plus)', en: 'Independent Internship Project (PLN Icon Plus)' },
         points: {
           id: [
@@ -295,7 +297,7 @@ export const t = {
       {
         title: { id: 'AOT (Attack On Tikus): Pengendali Hama Sawah Otomatis Berbasis IoT', en: 'AOT (Attack On Tikus): IoT-Based Automatic Rice Field Pest Control' },
         role: { id: 'Pengembang IoT & Android', en: 'IoT & Android Developer' },
-        period: { id: 'Agustus 2023 – Des 2023', en: 'August 2023 – Dec 2023' },
+        period: { id: 'Agustus 2023 – Desember 2023', en: 'August 2023 – December 2023' },
         type: { id: 'Proyek Akademik', en: 'Academic Project' },
         points: {
           id: [
@@ -327,7 +329,7 @@ export const t = {
 
       {
         title: { id: 'Klinik Giri Husada: Sistem Aplikasi Manajemen Antrian Pasien', en: 'Klinik Giri Husada: Patient Queue Management Application' },
-        role: { id: 'Pengembang Aplikasi', en: 'Application Developer' },
+        role: { id: 'Pengembang Aplikasi Android', en: 'Android Application Developer' },
         period: { id: 'Februari 2023 – Juni 2023', en: 'February 2023 – June 2023' },
         type: { id: 'Proyek Akademik', en: 'Academic Project' },
         points: {

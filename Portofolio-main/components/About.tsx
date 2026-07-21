@@ -8,7 +8,7 @@ export default function About() {
   const { lang } = useLanguage()
 
   return (
-    <section id="about" className="bg-dark-800">
+    <section id="about" className="bg-gray-50 dark:bg-dark-800">
       <div className="section-container">
         <div className="max-w-4xl mx-auto">
           <Reveal>
@@ -19,8 +19,8 @@ export default function About() {
           </Reveal>
 
           <Reveal delay={120}>
-            <div className="bg-gradient-to-r from-primary-900/40 to-dark-700/40 border border-dark-700 rounded-2xl p-8 sm:p-10">
-              <p className="text-lg text-dark-300 leading-relaxed text-justify">
+            <div className="bg-gradient-to-r from-primary-50 dark:from-primary-900/40 to-white dark:to-dark-700/40 border border-gray-200 dark:border-dark-700 rounded-2xl p-8 sm:p-10">
+              <p className="text-lg text-gray-700 dark:text-dark-300 leading-relaxed text-justify">
                 {t.about.content[lang]}
               </p>
             </div>

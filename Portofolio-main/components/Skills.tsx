@@ -9,7 +9,7 @@ export default function Skills() {
   const cats = t.skills.categories
 
   return (
-    <section id="skills" className="bg-dark-800">
+    <section id="skills" className="bg-gray-50 dark:bg-dark-800">
       <div className="section-container">
         <Reveal>
           <h2 className="section-title text-center">{t.skills.title[lang]}</h2>
@@ -22,7 +22,7 @@ export default function Skills() {
           {cats.map((cat, index) => (
             <Reveal key={index} delay={index * 120}>
               <div className="card p-6 sm:p-8 hover:-translate-y-1 transition-transform duration-300 h-full">
-                <h3 className="text-lg font-semibold text-white mb-6 pb-4 border-b border-dark-700">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-6 pb-4 border-b border-gray-200 dark:border-dark-700">
                   {cat.title[lang]}
                 </h3>
                 <div className="flex flex-wrap gap-2">

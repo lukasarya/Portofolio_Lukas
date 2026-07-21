@@ -16,7 +16,7 @@ function ScreenshotThumb({ imgSrc, caption, color, onClick }: { imgSrc: string |
   return (
     <button
       onClick={onClick}
-      className="group relative w-44 shrink-0 aspect-video rounded-xl overflow-hidden border border-dark-100 hover:shadow-lg transition-all"
+      className="group relative w-44 shrink-0 aspect-video rounded-xl overflow-hidden border border-gray-200 dark:border-dark-100 hover:shadow-lg transition-all"
     >
       {noImage ? (
         <div
@@ -45,7 +45,7 @@ export default function Projects() {
   const [modalIndex, setModalIndex] = useState<{ project: number; screenshot: number } | null>(null)
 
   return (
-    <section id="projects" className="bg-dark-900">
+    <section id="projects" className="bg-white dark:bg-dark-900">
       <div className="section-container">
         <Reveal>
           <h2 className="section-title text-center">{t.projects.title[lang]}</h2>
@@ -65,10 +65,10 @@ export default function Projects() {
                   <div className="p-6 sm:p-8">
                     <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                       <div>
-                        <h3 className="text-xl font-semibold text-white">{project.title[lang]}</h3>
-                        <p className="text-primary-400 font-medium mt-1">{project.role[lang]}</p>
+                        <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{project.title[lang]}</h3>
+                        <p className="text-primary-600 dark:text-primary-400 font-medium mt-1">{project.role[lang]}</p>
                       </div>
-                      <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-primary-900/40 text-primary-300 shrink-0">
+                      <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-primary-50 dark:bg-primary-900/40 text-primary-700 dark:text-primary-300 shrink-0">
                         <Calendar className="w-3 h-3" />
                         {project.period[lang]}
                       </span>
@@ -76,11 +76,11 @@ export default function Projects() {
 
                     <div className="md:grid md:grid-cols-3 md:gap-6 mb-6">
                       <div className="md:col-span-2">
-                        <p className="text-sm text-dark-400 mb-4">{project.type[lang]}</p>
+                        <p className="text-sm text-gray-600 dark:text-dark-400 mb-4">{project.type[lang]}</p>
                         <ul className="space-y-2">
                           {project.points[lang].map((point: string, i: number) => (
-                            <li key={i} className="flex items-start gap-2 text-sm text-dark-400 text-justify">
-                              <span className="mt-2 w-1.5 h-1.5 bg-primary-400 rounded-full shrink-0" />
+                            <li key={i} className="flex items-start gap-2 text-sm text-gray-600 dark:text-dark-400 text-justify">
+                              <span className="mt-2 w-1.5 h-1.5 bg-primary-500 dark:bg-primary-400 rounded-full shrink-0" />
                               {point}
                             </li>
                           ))}
@@ -89,7 +89,7 @@ export default function Projects() {
 
                       {(project as any).poster && (
                         <div className="mt-4 md:mt-0 flex flex-col items-center justify-start">
-                          <div className="w-full rounded-xl overflow-hidden border border-dark-700 shadow-sm">
+                          <div className="w-full rounded-xl overflow-hidden border border-gray-200 dark:border-dark-700 shadow-sm">
                             <img
                               src={`/documentation/${(project as any).poster}`}
                               alt="Poster"
@@ -103,7 +103,7 @@ export default function Projects() {
 
                     {ss.length > 0 && (
                       <div className="mb-6">
-                        <p className="text-xs font-medium text-dark-500 uppercase tracking-wider mb-3">
+                        <p className="text-xs font-medium text-gray-500 dark:text-dark-500 uppercase tracking-wider mb-3">
                           {lang === 'id' ? 'Screenshot' : 'Screenshots'}
                         </p>
                         <div className="flex gap-3 overflow-x-auto pb-2 -mx-1 px-1">

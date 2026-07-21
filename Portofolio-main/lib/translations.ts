@@ -324,6 +324,43 @@ export const t = {
           { img: 'iot/esp rancangan 2.jpeg', id: { caption: 'Skema Rangkaian ESP-32', desc: 'Diagram skematik rangkaian ESP-32 CAM yang terintegrasi dengan Arduino Uno untuk sistem deteksi hama.' }, en: { caption: 'ESP-32 Circuit Schematic', desc: 'ESP-32 CAM circuit schematic diagram integrated with Arduino Uno for pest detection system.' } },
         ],
       },
+
+      {
+        title: { id: 'Klinik Giri Husada: Sistem Aplikasi Manajemen Antrian Pasien', en: 'Klinik Giri Husada: Patient Queue Management Application' },
+        role: { id: 'Pengembang Aplikasi', en: 'Application Developer' },
+        period: { id: 'Februari 2023 – Juni 2023', en: 'February 2023 – June 2023' },
+        type: { id: 'Proyek Akademik', en: 'Academic Project' },
+        points: {
+          id: [
+            'Bergabung dalam tim 7 orang membangun Aplikasi Manajemen Antrian Pasien untuk fasilitas kesehatan menggunakan Flutter dan Laravel, menyederhanakan proses janji temu dan mengurangi waktu tunggu pasien',
+            'Mengembangkan aplikasi mobile cross-platform dengan Flutter, menerapkan state management menggunakan Provider untuk mengelola alur data antrian secara efisien',
+            'Membangun backend API dengan Laravel dan MySQL sebagai database, menangani proses pendaftaran pasien dan pengambilan nomor antrian',
+            'Mengembangkan sistem Pengaturan Jadwal yang menyusun antrian secara otomatis dan menampilkan status terkini kepada pasien',
+            'Membangun fitur Monitoring Antrian Real-time agar pasien dapat memantau progres antrian langsung dari aplikasi tanpa perlu menunggu di lokasi',
+            'Menyediakan modul Laporan Harian untuk administrator, memudahkan evaluasi layanan berdasarkan data antrian yang tercatat',
+            'Merancang antarmuka aplikasi android (UI) yang responsif dan konsisten di berbagai ukuran layar menggunakan widget Flutter',
+          ],
+          en: [
+            'Joined a 7-person team building a Patient Queue Management Application for healthcare facilities using Flutter and Laravel, simplifying appointment scheduling and reducing patient wait times',
+            'Developed a cross-platform mobile application with Flutter, applying Provider state management to manage queue data flow efficiently',
+            'Built a backend API with Laravel and MySQL as the database, handling patient registration and queue number issuance',
+            'Developed a Schedule Settings system that automatically arranges queues and displays the latest status to patients',
+            'Built a Real-time Queue Monitoring feature so patients can track queue progress directly from the app without waiting on-site',
+            'Provided a Daily Report module for administrators to simplify service evaluation based on recorded queue data',
+            'Designed a responsive and consistent Android UI across various screen sizes using Flutter widgets',
+          ],
+        },
+        tags: ['Laravel', 'Flutter', 'MySQL', 'Provider'],
+        poster: 'girihusada/klinik.png',
+        // screenshots: [
+        //   { img: '1_customer_portal.png', id: { caption: 'Landing Page', desc: 'Halaman beranda utama dengan pencarian obat dan navigasi yang responsif.' }, en: { caption: 'Landing Page', desc: 'Main homepage with drug search and responsive navigation.' } },
+        //   { img: '8_customer_shop.png', id: { caption: 'Katalog & Keranjang Belanja', desc: 'Antarmuka pelanggan untuk memilih obat berdasarkan kategori, menambah ke keranjang, dan melakukan transaksi mandiri.' }, en: { caption: 'Catalog & Shopping Cart', desc: 'Customer interface to browse drugs by category, add to cart, and self-service checkout.' } },
+        //   { img: '3_pos_cashier.png', id: { caption: 'Modul Kasir (POS)', desc: 'Panel penjualan kasir apotek untuk melayani pembelian langsung dengan fitur pencarian obat cepat dan kalkulasi otomatis.' }, en: { caption: 'POS Cashier Module', desc: 'Pharmacy cashier sales panel for direct purchases with quick drug search and automatic calculation.' } },
+        //   { img: '6_expired_medicines.png', id: { caption: 'Pengendalian Obat Kadaluarsa', desc: 'Fitur pengawasan otomatis untuk obat yang mendekati tanggal kedaluwarsa demi menjaga keamanan konsumsi obat.' }, en: { caption: 'Expired Medicine Control', desc: 'Automatic monitoring feature for near-expiry drugs to ensure medication safety.' } },
+        //   { img: '2_admin_dashboard.png', id: { caption: 'Dashboard Admin', desc: 'Implementasi Laravel Middleware — Super Admin memiliki akses penuh ke laporan keuangan dan manajemen staf.' }, en: { caption: 'Admin Dashboard', desc: 'Laravel Middleware implementation — Super Admin has full access to financial reports and staff management.' } },
+        //   { img: '11_apoteker_dashboard.png', id: { caption: 'Dashboard Apoteker', desc: 'Dashboard terbatas untuk Apoteker — hanya dapat mengakses operasional obat dan stok.' }, en: { caption: 'Apoteker Dashboard', desc: 'Restricted dashboard for Apoteker — can only access drug operations and stock.' } },
+        // ],
+      },
     ],
   },
   skills: {

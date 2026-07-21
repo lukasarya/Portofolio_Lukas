@@ -58,10 +58,10 @@ export default function Home() {
               <p className="text-dark-400 text-sm mt-1 break-words">{t.footer.roles[lang]}</p>
             </div>
             <div className="flex items-center gap-4 shrink-0">
-              <a href="http://www.linkedin.com/in/rakharn" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-dark-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors">
+              <a href="https://www.linkedin.com/in/lukas-raden-arya-jatayu" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-dark-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="mailto:rakhaarian1@gmail.com" className="w-10 h-10 bg-dark-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors">
+              <a href="mailto:aryalukas65@gmail.com" className="w-10 h-10 bg-dark-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>

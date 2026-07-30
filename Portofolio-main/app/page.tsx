@@ -11,7 +11,6 @@ import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
 import Contact from '@/components/Contact'
 import { ChevronUp, Linkedin, Globe, Moon, Sun } from 'lucide-react'
-import ParticleBackground from '@/components/ParticleBackground'
 
 export default function Home() {
   const { lang, setLang } = useLanguage()
@@ -19,7 +18,6 @@ export default function Home() {
 
   return (
     <>
-      <ParticleBackground />
       <nav className="fixed top-0 left-0 right-0 bg-white/80 dark:bg-dark-900/80 backdrop-blur-md z-50 border-b border-gray-200 dark:border-dark-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between gap-4 h-16">

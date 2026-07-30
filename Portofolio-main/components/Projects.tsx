@@ -6,7 +6,6 @@ import { useLanguage } from '@/lib/LanguageContext'
 import { t } from '@/lib/translations'
 import ProjectModal from './ProjectModal'
 import Reveal from './Reveal'
-import TiltCard from './TiltCard'
 
 const COLORS = ['#0284c7', '#059669', '#d97706', '#7c3aed']
 
@@ -62,9 +61,8 @@ export default function Projects() {
 
             return (
               <Reveal key={pIdx} delay={pIdx * 120}>
-                <TiltCard tiltIntensity={6}>
-                  <div className="card">
-                    <div className="p-6 sm:p-8">
+                <div className="card hover:-translate-y-1 transition-transform duration-300">
+                  <div className="p-6 sm:p-8">
                     <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                       <div>
                         <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{project.title[lang]}</h3>
@@ -128,8 +126,7 @@ export default function Projects() {
                       ))}
                     </div>
                   </div>
-                  </div>
-                </TiltCard>
+                </div>
               </Reveal>
             )
           })}
